@@ -10,7 +10,15 @@
   <div class="page">
     <div class='section menu'></div>
     <div class='section header'>
-      <img src='images/header.svg'/>
+      <div class='photo'>
+        <picture>
+          <source media='(min-width: 401px)'
+                  srcset='images/photo-big.jpg'/>
+          <source media='(max-width: 400px)'
+                  srcset='images/photo-tall.jpg'/>
+          <img src='images/photo-small.jpg'/>
+        </picture>
+      </div>
     </div>
   <div class="section content">
     <div class="illustration" >
